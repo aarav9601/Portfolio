@@ -21,4 +21,4 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftp
           local-dir: ./          # Upload your repo
-          server-dir: /goelaaravportfolio.gt.tc/htdocs/   # Your real domain folder
+          server-dir: /htdocs/   # Your real domain folder
